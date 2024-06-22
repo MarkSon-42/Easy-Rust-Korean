@@ -1,7 +1,15 @@
-fn main() {
-    let my_city = "Seoul";
-    let year = 2002;
-    let poplutaion = 9_987_997;
-    println!("The city of {} in {} had a poplutaion of {}",my_city, year, poplutaion);
+// display 트레잇과 debug 트레잇
 
+fn empty_tuple() {
+
+}
+
+
+// Display {}
+
+// Debug print
+fn main() {
+    let tuple = empty_tuple();
+    println!("{:?}", tuple);
+    // {:?} 는 포맷지정자를 의미한다
 }
