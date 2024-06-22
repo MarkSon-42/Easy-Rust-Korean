@@ -1,15 +1,15 @@
-// display 트레잇과 debug 트레잇
+fn print_number(one: i16, two: i16) {
+    let multiplied_by_ten = {
+        let first_number = 10;
+        first_number * one * two
+    };
 
-fn empty_tuple() {
-
+    println!("{}", multiplied);
 }
 
 
-// Display {}
-
-// Debug print
 fn main() {
-    let tuple = empty_tuple();
-    println!("{:?}", tuple);
-    // {:?} 는 포맷지정자를 의미한다
+    // let my_number = give_number(9, 8);
+    // println!("{}", my_number);
+    print_number(7, 8);
 }
